@@ -7,12 +7,12 @@
 - IDE (IntelliJ / NetBeans / Eclipse)
 
 ## Pasos rápidos
-1. Importa el proyecto en tu IDE.
-2. Ejecuta `db.sql` en MySQL para crear la BD y la tabla.
-3. En `ConexionBD.java` ajusta URL, USER y PASSWORD.
-4. Agrega el `mysql-connector-j-8.x.x.jar` al classpath del proyecto.
-5. Ejecuta `MainApp` y valida las operaciones CRUD en la consola.
-6. Versiona el proyecto con Git y súbelo a GitHub (incluye este README).
+1. Importar el proyecto en el IDE.
+2. Ejecutar `db.sql` en MySQL para crear la BD y la tabla.
+3. En `ConexionBD.java` ajustar URL, USER y PASSWORD.
+4. Agregar el `mysql-connector-j-8.x.x.jar` al classpath del proyecto.
+5. Ejecutar `MainApp` y validar las operaciones CRUD en la consola.
+6. Versionar el proyecto con Git y súbelo a GitHub.
 
 ## Notas
 - La tabla usada es `usuarios` con campos `id`, `nombre`, `email`.
