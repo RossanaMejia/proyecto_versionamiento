@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS proyecto_db;
+USE proyecto_db;
+CREATE TABLE IF NOT EXISTS usuarios (
+    id INT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL
+);
